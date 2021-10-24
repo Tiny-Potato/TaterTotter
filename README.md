@@ -1,3 +1,3 @@
 # TaterTotter
-### tiny_potato � ❤
+### tiny_potato ❤️
 epic based uncringe tater

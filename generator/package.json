@@ -1,0 +1,12 @@
+{
+	"name": "tater-library-generator",
+	"version": "1.0.0",
+	"description": "A generator for the Tater Library.",
+	"main": "./generate.js",
+	"dependencies": {
+		"debug": "^4.3.1",
+		"fs-extra": "^9.1.0",
+		"sharp": "^0.27.2",
+		"sort-keys": "^4.2.0"
+	}
+}

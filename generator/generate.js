@@ -25,8 +25,8 @@ function wrap(taters, length) {
 }
 
 function compareTaters(a, b) {
-	if (!a.firstAppearance || !a.firstAppearance.date) return -1;
-	if (!b.firstAppearance || !b.firstAppearance.date) return 1;
+	if (!a.firstAppearance || !a.firstAppearance.date) return 1;
+	if (!b.firstAppearance || !b.firstAppearance.date) return -1;
 
 	const dateCompare = new Date(a.firstAppearance.date) - new Date(b.firstAppearance.date);
 	if (dateCompare === 0 && a.firstAppearance.order && b.firstAppearance.order) {
